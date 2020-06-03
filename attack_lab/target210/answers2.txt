@@ -1,7 +1,7 @@
 /* intructions for moving the cookie into rdi */
 48 c7 c7 16 c5 91 4c c3
 
-/* 24 bytes buffer */
+/* 16 bytes buffer */
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
 
